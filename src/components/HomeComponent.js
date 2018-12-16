@@ -65,10 +65,10 @@ class Home extends React.Component {
                                             <td>${product.price}</td>
                                             <td>{product.category}</td>
                                             <td>
-                                                <Link to={`/Product_Shopproductdetail/${product.id}`} className="btn btn-info btn-sm">Read One</Link>
+                                                <Link to={`/Product_Shop/productdetail/${product.id}`} className="btn btn-info btn-sm">Read One</Link>
                                             </td>
                                             <td>
-                                                <Link to={`/Product_Shopeditproduct/${product.id}`} className="btn btn-primary btn-sm">Edit</Link>
+                                                <Link to={`/Product_Shop/editproduct/${product.id}`} className="btn btn-primary btn-sm">Edit</Link>
                                             </td>
                                             <td>
                                                 <button onClick={this.delHandler(product)} className="btn btn-sm btn-danger">Delete</button>
