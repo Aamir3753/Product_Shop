@@ -2,7 +2,7 @@
   "name": "product_shop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aamir3753.github.com/home",
+  "homepage": "https://aamir3753.github.io/Product_Shop/",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "gh-pages": "^2.0.1",
