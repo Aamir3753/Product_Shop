@@ -1,0 +1,4 @@
+import { createStore, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk';
+import { products } from './product';
+export const store = createStore(products, applyMiddleware(thunk));
