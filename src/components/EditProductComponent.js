@@ -41,7 +41,7 @@ class EditProduct extends React.Component {
                 id: product.id,
                 date: product.date
             }))
-            this.props.history.push("/home");
+            this.props.history.push("/Product_Shop/home");
         }
         else {
             if (!this.state.nameIsValid) {
@@ -144,7 +144,7 @@ class EditProduct extends React.Component {
                     <div className="row">
                         <div className="col-12">
                             <Breadcrumb>
-                                <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
+                                <BreadcrumbItem><Link to="/Product_Shop/home">Home</Link></BreadcrumbItem>
                                 <BreadcrumbItem active>Edit_Product</BreadcrumbItem>
                             </Breadcrumb>
                         </div>

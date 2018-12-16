@@ -15,7 +15,7 @@ let ProductDetail = (props) => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <Link to="/createproduct" className="btn ml-4 mt-4 mb-2 btn-primary">Create Product</Link>
+                        <Link to="/Product_Shop/createproduct" className="btn ml-4 mt-4 mb-2 btn-primary">Create Product</Link>
                     </div>
                 </div>
                 <div className="row">
@@ -34,7 +34,7 @@ let ProductDetail = (props) => {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <Link to="/createproduct" className="btn ml-4 mt-4 mb-2 btn-primary">Create Product</Link>
+                            <Link to="/Product_Shop/createproduct" className="btn ml-4 mt-4 mb-2 btn-primary">Create Product</Link>
                         </div>
                     </div>
                     <div className="row">
@@ -51,7 +51,7 @@ let ProductDetail = (props) => {
                     <div className="row">
                         <div className="col-12">
                             <Breadcrumb>
-                                <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
+                                <BreadcrumbItem><Link to="/Product_Shop/home">Home</Link></BreadcrumbItem>
                                 <BreadcrumbItem active>Product_Detail</BreadcrumbItem>
                             </Breadcrumb>
                         </div>

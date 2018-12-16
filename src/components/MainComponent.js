@@ -22,11 +22,11 @@ class Main extends React.Component {
                 <TransitionGroup>
                     <CSSTransition classNames="page" key={this.props.location.key} timeout={300}>
                         <Switch>
-                            <Route exact path="/home" component={Home} />
-                            <Route exact path="/createproduct" component={CreateProduct} />
-                            <Route exact path="/editproduct/:id" component={EditProduct} />
-                            <Route path="/productdetail/:id" component={ProductDetail} />
-                            <Redirect to="/home" />
+                            <Route exact path="/Product_Shop/home" component={Home} />
+                            <Route exact path="/Product_Shop/createproduct" component={CreateProduct} />
+                            <Route exact path="/Product_Shop/editproduct/:id" component={EditProduct} />
+                            <Route path="/Product_Shop/productdetail/:id" component={ProductDetail} />
+                            <Redirect to="/Product_Shop/home" />
                         </Switch>
                     </CSSTransition>
                 </TransitionGroup>

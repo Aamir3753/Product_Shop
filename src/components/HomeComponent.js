@@ -26,7 +26,7 @@ class Home extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <Link to="/createproduct" className="btn ml-4 mt-4 mb-2 btn-primary">Create Product</Link>
+                            <Link to="/Product_Shop/createproduct" className="btn ml-4 mt-4 mb-2 btn-primary">Create Product</Link>
                         </div>
                     </div>
                     <div className="row">
@@ -42,7 +42,7 @@ class Home extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <Link to="/createproduct" className="btn ml-4 mt-4 mb-2 btn-primary">Create Product</Link>
+                            <Link to="/Product_Shop/createproduct" className="btn ml-4 mt-4 mb-2 btn-primary">Create Product</Link>
                         </div>
                     </div>
                     <div className="row m-4">
@@ -65,10 +65,10 @@ class Home extends React.Component {
                                             <td>${product.price}</td>
                                             <td>{product.category}</td>
                                             <td>
-                                                <Link to={`productdetail/${product.id}`} className="btn btn-info btn-sm">Read One</Link>
+                                                <Link to={`/Product_Shopproductdetail/${product.id}`} className="btn btn-info btn-sm">Read One</Link>
                                             </td>
                                             <td>
-                                                <Link to={`editproduct/${product.id}`} className="btn btn-primary btn-sm">Edit</Link>
+                                                <Link to={`/Product_Shopeditproduct/${product.id}`} className="btn btn-primary btn-sm">Edit</Link>
                                             </td>
                                             <td>
                                                 <button onClick={this.delHandler(product)} className="btn btn-sm btn-danger">Delete</button>

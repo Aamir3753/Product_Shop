@@ -90,7 +90,7 @@ class CreateProduct extends React.Component {
                 price: document.getElementById("product_price").value,
                 category: document.getElementById("product_category").value,
             }))
-            this.props.history.push("/home");
+            this.props.history.push("/Product_Shop/home");
         }
         else {
             if (!this.state.nameIsValid) {
@@ -117,7 +117,7 @@ class CreateProduct extends React.Component {
                 <div className="row">
                     <div className="col-12">
                         <Breadcrumb>
-                            <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
+                            <BreadcrumbItem><Link to="/Product_Shop/home">Home</Link></BreadcrumbItem>
                             <BreadcrumbItem active>Create_Product</BreadcrumbItem>
                         </Breadcrumb>
                     </div>
